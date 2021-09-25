@@ -1,4 +1,4 @@
-# How to log in and get cookies
+# How to login and get token you need
 - It's very simple! Provided by [Flying1008](https://github.com/flying1008)
 
 ```
