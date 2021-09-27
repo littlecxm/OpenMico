@@ -59,6 +59,24 @@ function login() {
         success: function(data) {
             console.log('!!! Start loading device information !!!');
 
+            /*
+            // 此处视环境而定，如果返回值为 '[]' 则需要判空
+
+            if(data == '[]'){
+                console.log('!!! Damn it! The return value is not in JSON format !!!');
+                console.log('!!! Login failed! Check if the information is wrong !!!');
+                
+                $('#TipsModalLabel').text('登录错误 (错误码: callbakJsonError)');
+                $('#tipsModal .modal-footer .TipsCloseBtn').css({'display': 'inline-block'});
+                $('#tipsModal .modal-body').text('登录失败，请核对密码与账号输入是否正确!');
+                $('#tipsModal').modal('show');
+
+                loginbtn.text('登录');
+                loginbtn.removeAttr("disabled");
+
+                return;
+            }
+            */
             if(isJSON(data) != true){
                 console.log('!!! Damn it! The return value is not in JSON format !!!');
                 console.log('!!! Login failed! Check if the information is wrong !!!');
