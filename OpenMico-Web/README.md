@@ -9,5 +9,5 @@
 - 首次提交可用版本
 
 ## 开源和感谢
-- 本网页以 GUN-GPL-3.0 开放源代码
+- 本网页以 GNU-GPL-3.0 开放源代码
 - 部分算法来自 [flying1008](https://github.com/flying1008)
