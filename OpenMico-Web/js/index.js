@@ -163,7 +163,7 @@ function getFirmwares() {
     firmwareTable.html('');
 
     $.ajax({
-        url: './data/firmwares.json',
+        url: 'https://endpoint.fastgit.org/https://github.com/azwhikaru/OpenMico/blob/FOTA/OpenMico-Web/data/firmwares.json',
         type: 'POST',
         dataType: 'json',
         success: function(data) {
